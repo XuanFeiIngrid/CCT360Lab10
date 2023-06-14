@@ -1,0 +1,29 @@
+html {
+  font-family: "Nunito", sans-serif;
+  background-color: #ead3a7;
+  color: #8b4513;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Meows";
+  src: url(../fonts/Meows.ttf);
+}
+
+.main {
+  width: 100%;
+  min-height: 90vh;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}

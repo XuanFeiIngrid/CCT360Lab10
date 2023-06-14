@@ -1,0 +1,51 @@
+body {
+  width: 100vw;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100%;
+  background-image: url(../img/main-bg.jpg); /* Deck, M. (2019, August 19) Golden retriever puppy on pavement [Photograph]. Unsplash. https://unsplash.com/photos/AsIaznAyBMY */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  color: #e9fdcb;
+  font-size: 30rem;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Meows", "Nunito", sans-serif;
+}
+
+.main-desc {
+  color: #e9fdcb;
+  font-size: 8rem;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Meows", "Nunito", sans-serif;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-buttons a {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-buttons a:hover {
+  color: #e9fdcb;
+  background-color: #996633;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}

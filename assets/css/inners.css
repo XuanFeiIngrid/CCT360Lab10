@@ -1,0 +1,175 @@
+.banner {
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  padding: 1rem 5rem;
+}
+
+.banner-title {
+  color: #e9fdcb;
+  font-size: 6rem;
+  font-weight: 400;
+  font-family: "Meows", "Nunito", sans-serif;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner-desc {
+  color: #e9fdcb;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#about-banner {
+  background-image: url(../img/about-banner.jpg); /* Reskp, J. (2018, May 2) four assorted-color puppies on window[Photograph]. Unsplash. https://unsplash.com/photos/VDrErQEF9e4 */
+  background-size: cover;
+  background-position: center 80%;
+}
+
+#blog-banner {
+  background-image: url(../img/blog-banner.jpg); /* Kannan, B. (2018, December 31) five yellow Labrador retriever puppies [Photograph]. Unsplash.  https://unsplash.com/photos/rfL-thiRzDs */
+  background-size: cover;
+  background-position: center 60%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  padding: 2rem 2rem 100px 2rem;
+  background-color: #ddbf97;
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card {
+  height: fit-content;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: #f6e6bd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  flex: 1 1 calc(100% / 3 - 2rem);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 15vh;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50%;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.card-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  margin-right: 1rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.label:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.label-1 {
+  background-color: #f8dbd4;
+  color: #c53939;
+}
+
+.label-2 {
+  background-color: #d4e2f8;
+  color: #2752b0;
+}
+
+.label-3 {
+  background-color: #f2ecd6;
+  color: #6e7821;
+}
+
+.card-info .date {
+  color: #ddbf97;
+}
+
+.card-content .title {
+  font-size: 3rem;
+  font-weight: 500;
+  white-space: nowrap;
+  font-family: "Meows", "Nunito", sans-serif;
+}
+
+.card-content .desc {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: #b66b35;
+}
+
+.card-content .chapters {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0.5rem 1rem;
+}
+
+.card-content .chapters li {
+  cursor: pointer;
+}
+
+.card-content .chapters li:hover {
+  text-decoration: underline;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem 0 0 3rem;
+  margin: 0 auto;
+  background-color: #ddbf97;
+  width: 90%;
+}
